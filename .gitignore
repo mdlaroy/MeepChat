@@ -1,0 +1,18 @@
+# python cache files
+__pycache__/
+*.py[cod]
+
+# virtual enviro files
+venv/
+
+# any db files
+data/*.db
+
+# json data files
+data/*.json
+emotion_history.json
+
+
+
+# streamlit stuff
+.streamlit/
