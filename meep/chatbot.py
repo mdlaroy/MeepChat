@@ -16,8 +16,8 @@ class MeepChatbot:
         self.conversation_history = []
         self.emotion_history = []
         self.user_personality = "friendly"
-        self.event_db = Events(db_name="data/user_events.db")
-        self.preferences = Preferences(db_name="data/user_preferences.db")
+        self.event_db = Events(db_name="user_events.db")
+        self.preferences = Preferences(db_name="user_preferences.db")
 
     def add_user_event(self, description, date, time):
         try:
